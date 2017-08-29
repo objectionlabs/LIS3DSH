@@ -34,7 +34,6 @@ class LIS3DSH
 		void setBandwidth(const uint8_t Bandwidth);
 		void setOutputDataRate(const uint8_t DataRate);
 
-	protected:
 		void writeReg(const uint8_t reg, const uint8_t value);
 		uint8_t readReg(const uint8_t reg);
 
